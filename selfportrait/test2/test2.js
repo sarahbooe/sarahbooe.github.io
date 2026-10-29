@@ -1,18 +1,63 @@
 function setup() {
 createCanvas(600, 600);
- background('gray');
+ background(255, 231, 109);
 }
 
 function draw() {
-  fill (252, 227, 187);
+  fill(54, 34, 13);
+ellipse (250, 380, 300, 500);
+fill (248, 229, 186);
+rect (225, 430, 50,60);
+fill (222, 248, 255);
+ellipse (250, 630, 250, 300);
+  fill (248, 229, 186);
 ellipse (250, 300, 250, 300);
 fill('white');
-ellipse (300, 275, 45, 25);
+ellipse (300, 300, 45, 25);
 fill('white');
-ellipse (200, 275, 45, 25);
+ellipse (200, 300, 45, 25);
 fill('black');
-circle (200, 275, 20);
+circle (200, 300, 20);
 fill('black');
-circle (300, 275, 20);
-
+circle (300, 300, 20);
+fill(54, 34, 13);
+beginShape();
+vertex(250,195);
+vertex(208,230);
+vertex(173,252);
+vertex(152,304);
+vertex(142,392);
+vertex(144,457);
+vertex(126,398);
+vertex(113,333);
+vertex(117,274);
+vertex(143,213);
+vertex(176,168);
+vertex(224,142);
+vertex(246,141);
+endShape();
+fill(54, 34, 13);
+beginShape();
+vertex(250,195);
+vertex(292,230);
+vertex(327,252);
+vertex(348,304);
+vertex(358,392);
+vertex(356,457);
+vertex(374,398);
+vertex(387,333);
+vertex(383,274);
+vertex(357,213);
+vertex(324,168);
+vertex(276,142);
+vertex(246,141);
+endShape();
+fill (209, 105, 92);
+arc(250, 380, 60, 40, 0, PI );
+line (220, 380, 280, 380);
+line(240,340,252,357);
+line(250, 330, 240, 340);
+line(228,265,171,270);
+line(272, 265, 329, 270);
+strokeWeight(3);
 }
