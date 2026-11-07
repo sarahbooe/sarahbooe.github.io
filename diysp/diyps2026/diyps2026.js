@@ -1,7 +1,7 @@
 var img;
 var initials ='sb'; // your initials
 var choice = '1'; // starting choice, so it is not empty
-var screenbg = 250; // off white background
+var screenbg = 'white'; // off white background
 var lastscreenshot=61; // last screenshot never taken
 
 let myStringA = "-----";
