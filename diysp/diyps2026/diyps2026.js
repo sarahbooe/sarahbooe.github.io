@@ -1,7 +1,7 @@
 var img;
 var initials ='sb'; // your initials
 var choice = '1'; // starting choice, so it is not empty
-var screenbg = 'white'; // off white background
+var screenbg = (250); // off white background
 var lastscreenshot=61; // last screenshot never taken
 
 let myStringA = "-----";
@@ -75,7 +75,7 @@ function newkeyChoice(toolChoice) { //toolchoice is the key that was pressed
     line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '0') {
 
-   stroke('white');
+   stroke(250);
 strokeWeight(30);
 line(mouseX, mouseY, pmouseX, pmouseY);
   } else if (toolChoice == '8') {
